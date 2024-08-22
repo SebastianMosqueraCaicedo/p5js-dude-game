@@ -2,7 +2,15 @@
 const colorPalette = {
 	
 	//   NEUTRAL
+	// blacks
 	RBLA = color('#260403');
+	BBLA = color('#001D26');
+
+	// white / grays
+	NWHI = color('#E2F9FF');
+	WGRY = color('#A9BBBF');
+	NGRY = color('#717C80');
+	BGRY = color('#444B4D');
 	
 	//   MAIN
 	// reds
