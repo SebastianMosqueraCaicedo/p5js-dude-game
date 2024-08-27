@@ -1,47 +1,48 @@
 // Object with game's constant color palette
+
 const colorPalette = {
 	
 	//   NEUTRAL
 	// blacks
-	RBLA = color('#260403');
-	BBLA = color('#001D26');
+	RBLA : '#260403',
+	BBLA : '#001D26',
 
 	// white / grays
-	NWHI = color('#E2F9FF');
-	WGRY = color('#A9BBBF');
-	NGRY = color('#717C80');
-	BGRY = color('#444B4D');
+	NWHI : '#E2F9FF',
+	WGRY : '#A9BBBF',
+	NGRY : '#717C80',
+	BGRY : '#444B4D',
 	
 	//   MAIN
 	// reds
-	BRED = color('#FF1B16');
-	DRED = color('#800E0B');
-	NRED = color('#D91713');
+	BRED : '#FF1B16',
+	DRED : '#800E0B',
+	NRED : '#D91713',
 	
 	// greens
-	BGRE = color('#00FF70');
-	DGRE = color('#008038');
-	NGRE = color('#00D95F');
+	BGRE : '#00FF70',
+	DGRE : '#008038',
+	NGRE : '#00D95F',
 	
 	// blues
-	BBLU = color('#00C2FF');
-	DBLU = color('#006180');
-	NBLU = color('#00A5D9');
+	BBLU : '#00C2FF',
+	DBLU : '#006180',
+	NBLU : '#00A5D9',
 	
 	//   SECONDARY
 	// oranges
-	BORA = color('#FF8E16');
+	BORA : '#FF8E16',
 	// or brown
-	DORA = color('#80470B');
-	NORA = color('#d97913');
+	DORA : '#80470B',
+	NORA : '#d97913',
 	
 	// purples
-	BPUR = color('#9D00FF');
-	DPUR = color('#4F0080');
-	NPUR = color('#8600d9');
+	BPUR : '#9D00FF',
+	DPUR : '#4F0080',
+	NPUR : '#8600d9',
 	
 	// cyan
-	BCYA = color('#00FFD5');
-	DCYA = color('#00806A');
-	NCYA = color('#00d9b5');
+	BCYA : '#00FFD5',
+	DCYA : '#00806A',
+	NCYA : '#00d9b5'
 };

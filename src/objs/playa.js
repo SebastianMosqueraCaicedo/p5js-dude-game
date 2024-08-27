@@ -5,19 +5,28 @@
 * be hurt or damage enemies and move the screen and level
 */
 
+import {colorPalette} from "/src/vars/colorPalette.js";
+
 class Playa{
-	constructor(posX, posY, height, width) {
-		this.posX = posX;
-		this.posY = posY;
+	constructor(Xpos, Ypos, height, width) {
+		this.Xpos = Xpos;
+		this.Ypos = Ypos;
 		this.height = height;
 		this.width = width;
 		
 		this.size = height*width;
 		this.id = {1, "player"};
-	}
+	};
 	
 	// sprite for idle anim
 	function playerIdle (){
+		noStroke();
+		fill(NRED);
+		square(this.Xpos, this.Ypos, this.size);
 		
-	}
+	};
+
+	function draw(){
+		playerIdle();
+	};
 }
